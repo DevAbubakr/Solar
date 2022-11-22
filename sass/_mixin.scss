@@ -1,0 +1,13 @@
+@mixin desc($d_name, $d_size) {
+  &-#{$d_name} {
+    font-size: $d_size;
+  }
+}
+
+//  bgi 
+
+@mixin bgi {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

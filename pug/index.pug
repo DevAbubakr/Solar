@@ -1,0 +1,168 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="slick/slick.min.css")
+    link(rel="stylesheet", href="slick/slick-theme.min.css")
+    link(rel="stylesheet", href="li/bootstrap-reboot.min.css")
+    link(rel="stylesheet", href="li/bootstrap-utilities.min.css")
+    link(rel="stylesheet", href="li/bootstrap-grid.min.css")
+    link(rel="stylesheet", href="css/slick.css")
+    link(rel="stylesheet", href="css/slick-theme.css")
+    link(rel="stylesheet", href="css/main.css")
+    title Document
+  body 
+    header.header
+      .container
+        .row
+          .col-lg-2.col-4.header__logo
+            .logo
+              a(href="/") Solar
+          .col-lg-7.col-xl-8.header__menu.d-none.d-lg-block
+            .menu
+              ul
+                li
+                  a(href="#") Home
+                li
+                  a(href="#") About us
+                li
+                  a(href="#") Services
+                li
+                  a(href="#") Portfolio
+                li
+                  a(href="#") Review
+                li
+                  a(href="#") Contact
+          .col-lg-3.col-xl-2.col-8
+            .header__btn
+              a.home__mbtn.d-lg-none(href="#")
+                i.fa-solid.fa-bars 
+              button.bn Contact us
+    #homeSLider
+      .section.home(style="background-image: url(images/bg.jpg);")
+        .container
+          .row
+            .col-md-10.offset-md-1
+              .home__text.text-center.d-flex.align-items-center.justify-content-center
+                h1 Make the best decision for your roof and home
+      .section.home(style="background-image: url(https://picsum.photos/1200);")
+        .container
+          .row
+            .col-md-10.offset-md-1
+              .home__text.text-center.d-flex.align-items-center.justify-content-center
+                h1 Make the best decision for your roof and home
+      .section.home(style="background-image: url(https://picsum.photos/1300);")
+        .container
+          .row
+            .col-md-10.offset-md-1
+              .home__text.text-center.d-flex.align-items-center.justify-content-center
+                h1 Make the best decision for your roof and home
+    section.about
+      .container
+        .row
+          .col-md-7
+            .about__img
+              img(src="images/about img.png", alt="about")
+          .col-md-5
+            .about__text
+              .about__title
+                h4.title About us
+              .about__desc
+                p.desc Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione quia harum dolore esse. Reprehenderit quidem minus vero officia dolor mollitia vitae unde doloremque. Accusantium necessitatibus voluptatem eveniet doloribus iusto soluta eius vel repudiandae aliquam ipsam?
+              .about__btn
+                button.bn.bnlarge Download Broshure
+    section.services
+      .container
+        .row
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+          .col-md-6.col-lg-6.col-xl-4
+            .services__blog
+              .blog__icon
+                i.fa-solid.fa-receipt 
+              .blog__title
+                span New Roof
+              .blog__desc
+                p.desc Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim magnam error.
+    section.project
+      .container
+        project__title
+          h4.title Our Project
+      .project__images.d-flex.justify-content-between
+        .container-fluid
+          .row-fluid
+            .col-md-6.col-lg-3.col-xxl-3
+              img(style="max-width: 100%;" src="images/slider 1.png", alt="project")
+            .col-md-6.col-lg-3.col-xxl-3
+              img(style="max-width: 100%;" src="images/slider 2.png", alt="project")
+            .col-md-6.col-lg-3.col-xxl-3
+              img(style="max-width: 100%;" src="images/slider 3.png", alt="project")
+            .col-md-6.col-lg-3.col-xxl-3
+              img(style="max-width: 100%;" src="images/slider 4.png", alt="project")
+      .container
+        .projects__btn(style="text-align: center; margin-top: 30px;")
+          button.bn Load more
+    section.contact
+      .container
+        .row
+          span.title.contact__tt Contact Us
+          .col-md-6
+            .contact__text
+              .contact__title
+                span New York
+              .contact__desc
+                p 709 Honey Creek Dr.
+                p New York
+                p NY10028
+              .contact__loc
+                img(src="images/photo_2022-10-20_12-40-51.jpg", alt="location")
+          .col-md-6
+            .contact__form
+              form()
+                input(type="text" placeholder="Name" class="contact__name")
+                input(type="email" placeholder="Email" class="contact__email")
+                input(type="text" placeholder="Subject" class="contact__subject")
+                textarea().massage Massage 
+    script(src="js/jquery.min.js") 
+    script(src="js/slick.js") 
+    script(src="js/main.js") 
